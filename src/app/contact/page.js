@@ -18,7 +18,9 @@ export default function ContactPage() {
                 <div className="bg-white shadow rounded-xl p-6">
                     <Phone className="mx-auto mb-3 text-red-600" size={32} />
                     <p className="font-semibold">Call Us</p>
-                    <p className="text-gray-600">+91 96606 97945</p>
+                    <p className="text-gray-600">Abdullah Bhai: +91 96606 97945</p>
+                    <p className="text-gray-600">Ashlam Bhai: +91 92614 42399</p>
+                    <p className="text-gray-600">M. Idrish Bhai +91 96609 06774 </p>
                 </div>
 
                 <div className="bg-white shadow rounded-xl p-6">
