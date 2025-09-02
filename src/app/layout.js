@@ -5,6 +5,10 @@ export const metadata = {
   title: "Rajasthan Meat Shop",
   description:
     "Fresh Chicken, Mutton, and Fish delivered daily. Halal certified and hygienically handled.",
+    icons: {
+      icon: "./public/favicon.ico",
+    },
+
 };
 
 export default function RootLayout({ children }) {

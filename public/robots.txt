@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://rajasthanmeatshop.in
+
+# Sitemaps
+Sitemap: https://rajasthanmeatshop.in/sitemap.xml
