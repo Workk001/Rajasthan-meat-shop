@@ -3,6 +3,18 @@
 import { motion } from "framer-motion";
 import { Phone, Mail, MapPin, MessageCircle } from "lucide-react";
 
+
+export const metadata = {
+    title: 'Contact Rajasthan Meat Shop',
+    description: 'Call or WhatsApp to order fresh chicken, mutton and fish in Rajasthan.',
+    alternates: { canonical: '/contact' },
+};
+
+
+
+
+
+
 export default function ContactPage() {
     return (
         <section className="container mx-auto px-6 py-16">

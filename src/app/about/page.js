@@ -2,6 +2,15 @@
 
 import { motion } from "framer-motion";
 
+
+export const metadata = {
+    title: 'About Rajasthan Meat Shop',
+    description: 'Trusted meat shop in Rajasthan. Hygienic processing, fair pricing and reliable delivery.',
+    alternates: { canonical: '/about' },
+};
+
+
+
 export default function AboutPage() {
     return (
         <section className="container mx-auto px-6 py-16 text-center">
