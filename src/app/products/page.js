@@ -5,11 +5,7 @@
 
 import { motion } from "framer-motion";
 
-export const metadata = {
-    title: 'Fresh Chicken, Mutton & Fish – Products',
-    description: 'Explore our fresh chicken, mutton, and fish products. Order online for fast delivery.',
-    alternates: { canonical: '/products' },
-};
+
 
 
 

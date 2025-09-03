@@ -8,11 +8,7 @@ import Link from "next/link";
 import Script from 'next/script';
 
 
-export const metadata = {
-  title: 'Fresh Meat Shop in Rajasthan',
-  description: 'Buy fresh chicken, mutton and fish in Rajasthan. Hygienic cuts and quick delivery.',
-  alternates: { canonical: '/' },
-};
+
 
 
 
@@ -20,39 +16,6 @@ export const metadata = {
 
 
 export default function Home() {
-  const ld = {
-    "@context": "https://schema.org",
-    "@type": "Butcher",
-    "name": "Rajasthan Meat Shop",
-    "url": "https://rajasthanmeatshop.in",
-    "image": "https://rajasthanmeatshop.in/og-image.jpg",
-    "telephone": "+91-XXXXXXXXXX",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "Your Street, Area",
-      "addressLocality": "Your City",
-      "addressRegion": "Rajasthan",
-      "postalCode": "XXXXXX",
-      "addressCountry": "IN"
-    },
-    "openingHoursSpecification": [
-      {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": [
-          "Monday",
-          "Tuesday",
-          "Wednesday",
-          "Thursday",
-          "Friday",
-          "Saturday",
-          "Sunday"
-        ],
-        "opens": "08:00",
-        "closes": "21:00"
-      }
-    ]
-  };
-
 
 
 
@@ -75,9 +38,6 @@ export default function Home() {
 
   return (
     <div>
-      <Script id="ld-localbusiness" type="application/ld+json">
-        {JSON.stringify(ld)}
-      </Script>
 
 
       {/* Hero Section with Slider */}

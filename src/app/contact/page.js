@@ -4,11 +4,6 @@ import { motion } from "framer-motion";
 import { Phone, Mail, MapPin, MessageCircle } from "lucide-react";
 
 
-export const metadata = {
-    title: 'Contact Rajasthan Meat Shop',
-    description: 'Call or WhatsApp to order fresh chicken, mutton and fish in Rajasthan.',
-    alternates: { canonical: '/contact' },
-};
 
 
 

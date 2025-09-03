@@ -2,34 +2,31 @@ import "./globals.css";
 import Navbar from "../components/Navbar";
 
 export const metadata = {
-  metadataBase: new URL('https://rajasthanmeatshop.in'),
+  metadataBase: new URL("https://rajasthanmeatshop.in"),
   title: {
-    default: 'Rajasthan Meat Shop',
-    template: '%s | Rajasthan Meat Shop',
+    default: "Rajasthan Meat Shop",
+    template: "%s | Rajasthan Meat Shop",
   },
-  description: 'Fresh chicken, mutton and fish in Rajasthan with hygienic processing and fast delivery.',
+  description:
+    "Fresh chicken, mutton and fish in Rajasthan with hygienic processing and fast delivery.",
   openGraph: {
-    type: 'website',
-    url: 'https://rajasthanmeatshop.in',
-    title: 'Rajasthan Meat Shop',
-    description: 'Fresh chicken, mutton and fish in Rajasthan. Hygienic, fast delivery.',
-    images: ['/og-image.jpg'],
+    type: "website",
+    url: "https://rajasthanmeatshop.in",
+    title: "Rajasthan Meat Shop",
+    description:
+      "Fresh chicken, mutton and fish in Rajasthan. Hygienic, fast delivery.",
+    images: ["/og-image.jpg"], // ✅ fixed
   },
   twitter: {
-    card: 'summary_large_image',
-    title: 'Rajasthan Meat Shop',
-    description: 'Buy fresh chicken, mutton, and fish online in Rajasthan.',
-    images: ['/og-image.jpg'],
+    card: "summary_large_image",
+    title: "Rajasthan Meat Shop",
+    description:
+      "Buy fresh chicken, mutton, and fish online in Rajasthan.",
+    images: ["/og-image.jpg"], // ✅ fixed
   },
-
-
-  title: "Rajasthan Meat Shop",
-  description:
-    "Fresh Chicken, Mutton, and Fish delivered daily. Halal certified and hygienically handled.",
-    icons: {
-      icon: "./public/favicon.ico",
-    },
-
+  icons: {
+    icon: "/favicon.ico", // ✅ fixed
+  },
 };
 
 export default function RootLayout({ children }) {
